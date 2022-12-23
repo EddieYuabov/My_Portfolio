@@ -72,7 +72,18 @@ footer {
   padding-bottom: 0px;
   padding-right:15px;
 }
-
+#project-display{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.projects{
+  outline-style: groove;
+  padding: 30px 10px 30px 10px;
+  margin: 20px 80px 20px 80px;
+  outline-color: white;
+  cursor: pointer;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
