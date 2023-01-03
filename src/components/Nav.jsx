@@ -10,7 +10,7 @@ const Nav = () => {
                 <Link to = '/projects'><h3 className="nav-font">Projects</h3></Link>
                 {/* <Link to ='/resume'><h3 className="nav-font">Resume</h3></Link> */}
                 <a 
-                href="https://docs.google.com/document/d/1H7bM-Ads3k1Ecq6u20mGnDIcrhlRC63eP5Gc1qwr9TM/edit"
+                href="https://docs.google.com/document/d/1DVT0-fNo3kYleiR-_dJPom5PQoEmey-wAqZJ0GNS3_4/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 >

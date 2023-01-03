@@ -3,10 +3,16 @@ const Projects = () => {
     <div>
       <h1>Projects</h1>
       <div id="project-display">
-        <section className="projects">
-          <img />
-          <p>BlackJack</p>
-        </section>
+        <a
+          href="https://parallel-holiday.surge.sh/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <section className="projects">
+            <img />
+            <p>BlackJack</p>
+          </section>
+        </a>
         <section className="projects">
           <img />
           <p>Marvel Cinematic Universe</p>
