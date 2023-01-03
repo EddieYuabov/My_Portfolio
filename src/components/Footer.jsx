@@ -9,7 +9,7 @@ const Footer = () => {
                 <img class="footer-img-tag" src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png"/>    
             </a>
         </div>
-        <p id="text-footer">©2022 Edward Yuabov</p>
+        <p id="text-footer">©2023 Edward Yuabov</p>
     </div>
     )
 }
