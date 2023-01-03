@@ -73,15 +73,24 @@ footer {
 }
 #project-display{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  text-align: center;
+  justify-content: center;
 }
 .projects{
   outline-style: groove;
-  padding: 30px 10px 30px 10px;
-  margin: 20px 80px 20px 80px;
+  padding: 40px 60px 40px 60px;
   outline-color: white;
   cursor: pointer;
+}
+#img{
+  height: 450px;
+  width: 900px;
+}
+.link{
+  outline-style: groove;
+  outline-color: white;
+  margin: 20px 450px 20px 450px;
+
 }
 /* .App-logo {
   height: 40vmin;
