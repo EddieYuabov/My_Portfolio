@@ -8,7 +8,6 @@ const Nav = () => {
             <div id="links">
                 <Link to = '/'><h3 className="nav-font">Home</h3></Link>
                 <Link to = '/projects'><h3 className="nav-font">Projects</h3></Link>
-                {/* <Link to ='/resume'><h3 className="nav-font">Resume</h3></Link> */}
                 <a 
                 href="https://docs.google.com/document/d/1DVT0-fNo3kYleiR-_dJPom5PQoEmey-wAqZJ0GNS3_4/edit?usp=sharing"
                 target="_blank"
