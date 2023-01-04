@@ -8,7 +8,7 @@ const Projects = () => {
           rel="noopener noreferrer"
           className="link"
         >
-          <section className="projects">
+          <section id="top-project">
             <img
               src="https://i.imgur.com/LtriviY.png"
               alt="hogwarts"
@@ -42,7 +42,7 @@ const Projects = () => {
           rel="noopener noreferrer"
           className="link"
         >
-          <section className="projects">
+          <section id="bottom-project">
             <img src="https://i.imgur.com/xcxtukb.png" alt="blog" id="img" />
             <p>Blog</p>
           </section>
