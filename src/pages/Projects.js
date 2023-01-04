@@ -3,6 +3,21 @@ const Projects = () => {
     <div>
       <div id="project-display">
         <a
+          href="https://salty-taiga-60643.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
+        >
+          <section className="projects">
+            <img
+              src="https://i.imgur.com/LtriviY.png"
+              alt="hogwarts"
+              id="img"
+            />
+            <p>Hogwarts</p>
+          </section>
+        </a>
+        <a
           href="https://parallel-holiday.surge.sh/"
           target="_blank"
           rel="noopener noreferrer"
@@ -30,21 +45,6 @@ const Projects = () => {
           <section className="projects">
             <img src="https://i.imgur.com/xcxtukb.png" alt="blog" id="img" />
             <p>Blog</p>
-          </section>
-        </a>
-        <a
-          href="https://salty-taiga-60643.herokuapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link"
-        >
-          <section className="projects">
-            <img
-              src="https://i.imgur.com/LtriviY.png"
-              alt="hogwarts"
-              id="img"
-            />
-            <p>Hogwarts</p>
           </section>
         </a>
       </div>
