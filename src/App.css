@@ -38,6 +38,7 @@ p{
 }
 #home{
   padding-top: 60px;
+  padding-bottom: 100px
 }
 a{
   text-decoration: none;
@@ -57,10 +58,6 @@ a{
   padding: 25px 5px 0px 5px;
   /* color:rgb(0, 0, 0) */
 }
-.nav-font:active{
-  color:black;
-  font-size: 40px
-}
 footer {
   bottom: 0;
   position: absolute;
@@ -71,7 +68,7 @@ footer {
 }
 #text-footer{
   font-size: 15px; 
-  color:black
+  color:black;
 }
 .footer-linkedin{
   height: 40px;
@@ -134,8 +131,14 @@ footer {
 }
 .link{
   margin: 20px 450px 20px 450px;
-
 }
+
+@media (max-height: 931px){
+  footer {
+    position:relative;
+  }
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
