@@ -4,7 +4,7 @@
   min-height: 100vh;
 }
 h2{
-  width: 600px;
+  /* width: 600px; */
   margin: 0 auto;
   font-family: "Helvetica Neue", "Arial", sans-serif;
   font-style: italic;
@@ -136,6 +136,26 @@ footer {
 @media (max-height: 931px){
   footer {
     position:relative;
+  }
+}
+@media (max-width: 400px) and (max-height: 900px){
+  .about-p{
+    font-size: 20px;
+    padding: 0px 20px 0px 20px
+  }
+  #img{
+    height: 200px;
+    width: 350px;
+  }
+  .projects{
+    padding: 20px 20px 10px 20px;
+  }
+  #bottom-project{
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 20px;
+  }
+  #top-project{
+    padding: 20px 20px 10px 20px;
   }
 }
 
