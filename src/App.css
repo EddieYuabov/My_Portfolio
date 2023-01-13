@@ -56,7 +56,7 @@ background-color: rgb(238, 238, 238);
   display: flex;
   justify-content: space-evenly;
 }
-p{
+#about-p{
   font-size:28px;
   color:rgb(0, 0, 0);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -131,6 +131,10 @@ footer {
   padding-right: 200px;
   padding-top: 20px;
 }
+.app-link{
+  size:10px;
+  margin:auto;
+}
 #project-display{
   display: grid;
   text-align: center;
@@ -141,7 +145,8 @@ footer {
   grid-template-columns: 1fr 1fr;
   padding: 40px 10px 40px 50px;
   box-shadow: 0px 0px 20px 1px rgb(74, 74, 74);
-  margin: 1-;
+  margin: 10;
+  border-radius: 5px;
 }
 #top-project{
   display:grid;
@@ -149,6 +154,7 @@ footer {
   padding: 40px 60px 40px 50px;
   box-shadow: 0px 0px 20px 1px rgb(74, 74, 74);
   margin: 20px 0px 20px 0px;
+  border-radius: 5px;
 }
 #bottom-project{
   display:grid;
@@ -156,12 +162,13 @@ footer {
   padding: 40px 60px 40px 50px;
   box-shadow: 0px 0px 20px 1px rgb(74, 74, 74);
   margin: 20px 0px 50px 0px;
+  border-radius: 5px;
 }
 #img{
   height: 250px;
   width: 500px;
   margin: auto;
-
+  border-radius: 10px;
 }
 .link{
   margin: 20px 0px 20px 0px;
@@ -206,20 +213,20 @@ footer {
 @media (max-width: 500px){
   .projects{
     margin:25px 900px 50px 900px;
-    padding:80px 60px 80px 60px;
+    padding:80px 60px 30px 60px;
   }
   #bottom-project{
     margin:25px 900px 50px 900px;
-    padding:80px 60px 80px 60px;
+    padding:80px 60px 30px 60px;
 
   }
   #top-project{
     margin:25px 900px 50px 900px;
-    padding:80px 60px 80px 60px;
+    padding:80px 60px 30px 60px;
   }
   #img{
-    height: 130px;
-    width: 200px;
-    margin-bottom: 20px;
+    height: 220px;
+    width: 350px;
+    margin: -60px -40px 0px -40px;
   }
 }
