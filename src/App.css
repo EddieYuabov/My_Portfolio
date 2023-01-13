@@ -203,3 +203,18 @@ footer {
     margin:0px 100px 25px 100px;
   }
 }
+@media (max-width: 500px){
+  .projects{
+    margin:25px 800px 50px 800px;
+    padding:80px 60px 80px 60px;
+  }
+  #bottom-project{
+    margin:25px 800px 50px 800px;
+    padding:80px 60px 80px 60px;
+
+  }
+  #top-project{
+    margin:25px 800px 50px 800px;
+    padding:80px 60px 80px 60px;
+  }
+}
