@@ -14,8 +14,8 @@ const Home = () => {
         learning 5 different coding languages!
         <br />
         <br />
-        In my spare time I enjoy playing piano, restoring cars and learning new
-        things in the world of CS
+        In my spare time I enjoy playing the piano, restoring vintage cars and
+        developing various computer science programs
       </p>
     </div>
   )
