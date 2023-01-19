@@ -31,6 +31,33 @@ const Projects = () => {
         </section>
         <section className="projects">
           <img
+            src="https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFydmVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+            alt="marvel picture"
+            id="img"
+          />
+          <div>
+            <h1>Marvel Cinematic Universe</h1>
+            <p>
+              Application that displays all the movies from the Marvel cinematic
+              universe
+              <br />
+              that includes information on the movies along with their
+              respective trailers
+            </p>
+            <h1>Technologies used</h1>
+            <p>Languages: HTML5, CSS3, Javascript</p>
+            <h1>Live Site:</h1>
+            <a
+              href="https://mcu.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p className="app-link">https://mcu.herokuapp.com/</p>
+            </a>
+          </div>
+        </section>
+        <section className="projects">
+          <img
             src="https://i.imgur.com/zkYFhj1.png"
             alt="blackjack picture"
             id="img"
@@ -55,10 +82,6 @@ const Projects = () => {
             </a>
           </div>
         </section>
-        {/* <section className="projects">
-          <img />
-          <p>Marvel Cinematic Universe</p>
-        </section> */}
         <section id="bottom-project">
           <img src="https://i.imgur.com/xcxtukb.png" alt="blog" id="img" />
           <div>
