@@ -179,9 +179,10 @@ footer {
     position:relative;
   }
 }
+
 @media (max-width: 1200px){
   #about-p{
-    font-size: 20px;
+    font-size: 25px;
     padding: 0px 20px 0px 20px
   }
   #img{
@@ -209,6 +210,9 @@ footer {
     padding:100px;
     margin:0px 100px 25px 100px;
   }
+  footer {
+    position:absolute;
+  }
 }
 @media (max-width: 500px){
   .projects{
@@ -228,5 +232,71 @@ footer {
     height: 220px;
     width: 350px;
     margin: -60px -40px 0px -40px;
+  }
+  #about-p{
+    font-size: 20px;
+    padding: 0px 20px 0px 20px
+  }
+}
+
+@media (max-height: 931px) and (max-width: 1200px){
+  #about-p{
+    font-size: 25px;
+    padding: 0px 20px 0px 20px
+  }
+  #img{
+    height: 200px;
+    width: 350px;
+  }
+  .projects{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:100px;
+    margin:25px 100px 50px 100px
+    /* grid-template-rows:1fr 1fr ; */
+    /* padding: 20px 20px 10px 20px; */
+  }
+  #bottom-project{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:100px;  
+    margin:25px 100px 100px 100px
+
+  }
+  #top-project{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:100px;
+    margin:0px 100px 25px 100px;
+  }
+  footer {
+    position:relative;
+  }
+}
+@media (max-height: 931px) and (max-width: 500px){
+  .projects{
+    margin:25px 900px 50px 900px;
+    padding:80px 60px 30px 60px;
+  }
+  #bottom-project{
+    margin:25px 900px 50px 900px;
+    padding:80px 60px 30px 60px;
+
+  }
+  #top-project{
+    margin:25px 900px 50px 900px;
+    padding:80px 60px 30px 60px;
+  }
+  #img{
+    height: 220px;
+    width: 350px;
+    margin: -60px -40px 0px -40px;
+  }
+  #about-p{
+    font-size: 20px;
+    padding: 0px 20px 0px 20px
+  }
+  footer {
+    position:relative;
   }
 }
