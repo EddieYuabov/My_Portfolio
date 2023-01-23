@@ -173,6 +173,9 @@ footer {
 .link{
   margin: 20px 0px 20px 0px;
 }
+.img-link{
+  margin:0px 50px 82px 50px
+}
 
 @media (max-height: 931px){
   footer {
@@ -180,11 +183,12 @@ footer {
   }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1370px){
   #about-p{
     font-size: 25px;
     padding: 0px 20px 0px 20px
   }
+
   #img{
     height: 200px;
     width: 350px;
@@ -213,6 +217,9 @@ footer {
   footer {
     position:absolute;
   }
+  .img-link{
+    margin:0px 125px 82px 125px
+  }
 }
 @media (max-width: 500px){
   .projects{
@@ -239,7 +246,7 @@ footer {
   }
 }
 
-@media (max-height: 931px) and (max-width: 1200px){
+@media (max-height: 931px) and (max-width: 1370px){
   #about-p{
     font-size: 25px;
     padding: 0px 20px 0px 20px
@@ -253,8 +260,6 @@ footer {
     grid-template-columns: 1fr;
     padding:100px;
     margin:25px 100px 50px 100px
-    /* grid-template-rows:1fr 1fr ; */
-    /* padding: 20px 20px 10px 20px; */
   }
   #bottom-project{
     display: grid;
@@ -272,7 +277,11 @@ footer {
   footer {
     position:relative;
   }
+  .img-link{
+    margin:0px 125px 82px 125px
+  }
 }
+
 @media (max-height: 931px) and (max-width: 500px){
   .projects{
     margin:25px 900px 50px 900px;
