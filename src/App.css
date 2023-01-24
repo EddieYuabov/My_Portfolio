@@ -221,7 +221,7 @@ footer {
     margin:0px 125px 82px 125px
   }
 }
-@media (max-width: 500px){
+@media (max-width: 615px){
   .projects{
     margin:25px 900px 50px 900px;
     padding:80px 60px 30px 60px;
@@ -245,7 +245,15 @@ footer {
     padding: 0px 20px 0px 20px
   }
 }
-
+.link-button{
+  border-radius: 20px;
+  border-color: black;
+  background-color: rgb(204, 204, 204);
+}
+.live-site{
+  color:black;
+  margin:1px
+}
 @media (max-height: 931px) and (max-width: 1370px){
   #about-p{
     font-size: 25px;
@@ -282,7 +290,7 @@ footer {
   }
 }
 
-@media (max-height: 931px) and (max-width: 500px){
+@media (max-height: 931px) and (max-width: 615px){
   .projects{
     margin:25px 900px 50px 900px;
     padding:80px 60px 30px 60px;

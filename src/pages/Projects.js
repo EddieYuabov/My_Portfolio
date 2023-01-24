@@ -17,16 +17,15 @@ const Projects = () => {
             <p>Languages: HTML5, CSS3, Javascript</p>
             <p>Node.js with express</p>
             <p>Sequelize server for database managment</p>
-            <h3>Live Site:</h3>
-            <a
-              href="https://salty-taiga-60643.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <p className="app-link">
-                https://salty-taiga-60643.herokuapp.com/
-              </p>
-            </a>
+            <button className="link-button">
+              <a
+                href="https://salty-taiga-60643.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h1 className="live-site">Live Site</h1>
+              </a>
+            </button>
           </div>
         </section>
         <section className="projects">
@@ -46,14 +45,15 @@ const Projects = () => {
             </p>
             <h1>Technologies used</h1>
             <p>Languages: HTML5, CSS3, Javascript</p>
-            <h1>Live Site:</h1>
-            <a
-              href="https://mcu.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <p className="app-link">https://mcu.herokuapp.com/</p>
-            </a>
+            <button className="link-button">
+              <a
+                href="https://mcu.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h1 className="live-site">Live Site</h1>
+              </a>
+            </button>
           </div>
         </section>
         <section className="projects">
@@ -72,14 +72,15 @@ const Projects = () => {
             </p>
             <h1>Technologies used</h1>
             <p>Languages: HTML5, CSS3, Javascript</p>
-            <h1>Live Site:</h1>
-            <a
-              href="https://parallel-holiday.surge.sh/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <p className="app-link">https://parallel-holiday.surge.sh/</p>
-            </a>
+            <button className="link-button">
+              <a
+                href="https://parallel-holiday.surge.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h1 className="live-site">Live Site</h1>
+              </a>
+            </button>
           </div>
         </section>
         <section id="bottom-project">
@@ -94,14 +95,15 @@ const Projects = () => {
             <p>Languages: HTML5, CSS3, Javascript</p>
             <p>Node.js with express</p>
             <p>MongoDB with Mongoose for database management</p>
-            <h1>Live Site:</h1>
-            <a
-              href="https://still-wave-91765.herokuapp.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <p className="app-link">https://still-wave-91765.herokuapp.com</p>
-            </a>
+            <button className="link-button">
+              <a
+                href="https://still-wave-91765.herokuapp.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h1 className="live-site">Live Site</h1>
+              </a>
+            </button>
           </div>
         </section>
       </div>
