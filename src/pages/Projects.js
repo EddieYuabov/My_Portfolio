@@ -4,18 +4,7 @@ const Projects = () => {
       <h1 id="app-font">Applications</h1>
       <div id="project-display">
         <section id="top-project">
-          <a
-            href="https://salty-taiga-60643.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="img-link"
-          >
-            <img
-              src="https://i.imgur.com/LtriviY.png"
-              alt="hogwarts"
-              id="img"
-            />
-          </a>
+          <img src="https://i.imgur.com/LtriviY.png" alt="hogwarts" id="img" />
           <div>
             <h1>Hogwarts</h1>
             <p>
@@ -41,18 +30,11 @@ const Projects = () => {
           </div>
         </section>
         <section className="projects">
-          <a
-            href="https://mcu.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="img-link"
-          >
-            <img
-              src="https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFydmVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
-              alt="marvel picture"
-              id="img"
-            />
-          </a>
+          <img
+            src="https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFydmVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+            alt="marvel picture"
+            id="img"
+          />
           <div>
             <h1>Marvel Cinematic Universe</h1>
             <p>
@@ -75,18 +57,11 @@ const Projects = () => {
           </div>
         </section>
         <section className="projects">
-          <a
-            href="https://parallel-holiday.surge.sh/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="img-link"
-          >
-            <img
-              src="https://i.imgur.com/zkYFhj1.png"
-              alt="blackjack picture"
-              id="img"
-            />
-          </a>
+          <img
+            src="https://i.imgur.com/zkYFhj1.png"
+            alt="blackjack picture"
+            id="img"
+          />
           <div>
             <h1>Blackjack</h1>
             <p>
@@ -108,14 +83,7 @@ const Projects = () => {
           </div>
         </section>
         <section id="bottom-project">
-          <a
-            href="https://still-wave-91765.herokuapp.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="img-link"
-          >
-            <img src="https://i.imgur.com/xcxtukb.png" alt="blog" id="img" />
-          </a>
+          <img src="https://i.imgur.com/xcxtukb.png" alt="blog" id="img" />
           <div>
             <h1>BLOG</h1>
             <p>
