@@ -50,7 +50,7 @@ h4{
   font-weight: 300;
 }
 html{
-background-color: rgb(238, 238, 238);
+  background-color: rgb(255, 255, 255);
 }
 #links{
   display: flex;
