@@ -8,10 +8,15 @@ const Home = () => {
         I'm a full stack developer with a passion to learn new things
         <br />
         <br />
-        Within 3 short months I've managed to transform myself into an
+        {/* Within 3 short months I've managed to transform myself into an
         web-developer;
         <br />
         learning 5 different coding languages!
+        <br /> */}
+        I am proficient in JavaScript, Python, C++ as well as many other
+        languages
+        <br />
+        and frameworks.
         <br />
         <br />
         In my spare time I enjoy playing the piano, working on cars, and
