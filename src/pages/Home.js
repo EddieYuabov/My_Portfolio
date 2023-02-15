@@ -11,7 +11,7 @@ const Home = () => {
         I am proficient in JavaScript, Python, C++ as well as many other
         languages
         <br />
-        and frameworks.
+        and frameworks
         <br />
         <br />
         In my spare time I enjoy playing the piano, working on cars, and
