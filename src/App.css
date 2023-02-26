@@ -74,17 +74,41 @@ html{
 a{
   text-decoration: none;
 }
-.nav-font{
+#nav-home-font{
   color:rgb(255, 255, 255);
   font-size: 25px;
   font-weight: 300;
   transition: 500ms;
   padding: 30px 10px 20px 10px;
 }
-.nav-font:hover{
+#nav-home-font:hover{
   font-size: 30px;
   transition: 500ms;
-  padding: 25px 5px 0px 5px;
+  padding: 25px 2px 5px 5px;
+}
+#nav-projects-font{
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 300;
+  transition: 500ms;
+  padding: 30px 10px 20px 10px;
+}
+#nav-projects-font:hover{
+  font-size: 30px;
+  transition: 500ms;
+  padding: 25px 2px 5px 2px;
+}
+#nav-resume-font{
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 300;
+  transition: 500ms;
+  padding: 30px 10px 20px 10px;
+}
+#nav-resume-font:hover{
+  font-size: 30px;
+  transition: 500ms;
+  padding: 25px 1px 5px 2px;
 }
 footer {
   bottom: 0;
@@ -252,7 +276,8 @@ footer {
 }
 .live-site{
   color:black;
-  margin:1px
+  margin:1px;
+
 }
 @media (max-height: 931px) and (max-width: 1370px){
   #about-p{
