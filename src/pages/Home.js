@@ -5,13 +5,11 @@ const Home = () => {
       <h4>Valley Stream, NY</h4>
       <br />
       <p id="about-p">
-        I'm a full stack developer with a passion to learn new things
+        I'm a full stack developer with a passion to learn new things.
         <br />
         <br />
         I am proficient in JavaScript, Python, C++ as well as many other
-        languages
-        <br />
-        and frameworks
+        languages and frameworks.
         <br />
       </p>
       <div id="click-bar-display">
