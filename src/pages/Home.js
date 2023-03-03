@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <div id="home">
       <h2 id="header-font">Full-Stack Developer</h2>
-      <h4>Valley Stream, NY</h4>
+      <h4>New York, NY</h4>
       <br />
       <section id="about-section">
         <p id="about-p">
